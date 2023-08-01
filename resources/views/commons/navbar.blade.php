@@ -1,14 +1,14 @@
 <header class="mb-4">
-    <nav class="navber bg-neutral text-neutral-content">
+    <nav class="navbar bg-neutral text-neutral-content">
         {{-- トップページへのリンク --}}
         <div class="flex-1">
             <h1><a class="btn btn-ghost normal-case text-xl" href="/">Tasklist</a></h1>
         </div>
         
-        <div class="flex-none">
+<div class="flex-none">
             <ul tabindex="0" class="menu hidden lg:block lg:menu-horizontal">
-                {{-- タスク作成ページへのリンク --}}
-                <li><a class="link link-hover" href="{{ route('tasks.create') }}">新規タスクの投稿</a></li>
+                {{-- メッセージ作成ページへのリンク --}}
+                <li><a class="link link-hover" href="{{ route('tasks.create') }}">新規メッセージの投稿</a></li>
             </ul>
             <div class="dropdown dropdown-end">
                 <button type="button" tabindex="0" class="btn btn-square btn-ghost lg:hidden">
@@ -17,9 +17,8 @@
                     </svg>
                 </button>
                 <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-info">
-                    
-                    {{-- タスク作成ページへのリンク --}}
-                    <li><a class="link link-hover" href="{{ route('tasks.create') }}">新規タスクの投稿</a></li>
+                    {{-- メッセージ作成ページへのリンク --}}
+                    <li><a class="link link-hover" href="{{ route('tasks.create') }}">新規メッセージの投稿</a></li>
                 </ul>
             </div>
         </div>
