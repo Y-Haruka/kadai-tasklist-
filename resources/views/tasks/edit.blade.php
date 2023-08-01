@@ -18,7 +18,7 @@
                     <input type="text" name="content" value="{{ $task->content }}" class="input input-bordered w-full">
                 </div>
                 
-                <bottom type="submit" class="btn btn-primary btn-outline">更新</bottom>
+            <button type="submit" class="btn btn-primary btn-outline">更新</button>
         </form>
     </div>
 

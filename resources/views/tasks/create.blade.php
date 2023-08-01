@@ -17,7 +17,7 @@
                 <input type="text" name="content" class="input input-bordered w-full">
             </div>
             
-        <bottom type="submit" class="btn btn-primary btn-outline">投稿</bottom>
+        <button type="submit" class="btn btn-primary btn-outline">投稿</button>
     </form>
 </div>
 
